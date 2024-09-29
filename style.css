@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Left-aligns all content */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center; /* Keep header centered if desired */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px; /* Optional: limit the width to make the text easier to read */
+    margin: 0 auto; /* Center the section horizontally while keeping text left-aligned */
+}
+
+h2 {
+    text-align: left; /* Left-aligns section headings */
+}
+
+.job, .project {
+    text-align: left; /* Ensures job and project descriptions are left-aligned */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center; /* Keeps footer centered */
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start; /* Aligns the image and text side by side */
+    padding: 20px;
+}
+
+.about-container img.headshot {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px; /* Space between image and text */
+    border: 2px solid red; /* Remove this if you don't want a border */
+}
+
+.about-container p {
+    max-width: 600px; /* Limits the width of the text for better layout */
+}
